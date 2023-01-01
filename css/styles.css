@@ -1,11 +1,45 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 #title{
     background-color: #ff4c68;
+    color: white;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 .container-fluid{
     padding: 3% 15%;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+   font-family: ubuntu; 
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+.nav-item{
+    /* 0 top and bottom, 18 left and R */
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+/* download buttons  */
+.down-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
 }
